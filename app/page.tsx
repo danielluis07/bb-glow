@@ -58,14 +58,14 @@ export default function Home() {
         </div>
         <div className="mt-8 border border-slate-400 lg:border-none p-2 rounded-lg lg:order-1 lg:w-[450px]">
           <div className="font-bold text-xl lg:text-4xl">
-            Conquista el Mundo del BB Glow: El curso que cambiará tu vida
+            Descubre el arte del BB Glow: Un curso para potenciar tu carrera
             profesional
           </div>
           <div className="mt-3">
             <div className="flex items-center lg:space-x-2">
               <FaCheckCircle className="hidden lg:flex text-xl text-fuchsia-500" />
               <div className="text-xl">
-                ¡El curso que cambiará tu vida professional
+                Potencia tu carrera con habilidade en BB Glow
               </div>
             </div>
             <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
