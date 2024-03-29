@@ -72,7 +72,7 @@ export default function Home() {
               <button
                 type="submit"
                 className="flex justify-center mt-10 py-2 w-80 bg-fuchsia-300 rounded-md">
-                ¡Únete al curso ahora!
+                Saber Más
               </button>
             </form>
           </div>
