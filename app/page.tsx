@@ -6,7 +6,7 @@ import bannermobile from "@/public/flower-image-mobile.jpg";
 import testimonial1 from "@/public/testimonials/testimonial-1.jpg";
 import testimonial2 from "@/public/testimonials/testimonial-2.jpg";
 import testimonial3 from "@/public/testimonials/testimonial-3.jpg";
-import doctor from "@/public/doctor.jpg";
+import doctor from "@/public/doctor.png";
 import tools from "@/public/makeup-tools.jpg";
 import { FaCheckCircle } from "react-icons/fa";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
@@ -71,7 +71,7 @@ export default function Home() {
             <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
               <button
                 type="submit"
-                className="flex justify-center mt-10 py-2 w-80 bg-fuchsia-300 rounded-md">
+                className="flex justify-center mt-10 py-2 w-80 bg-fuchsia-300 rounded-md mx-auto">
                 Saber Más
               </button>
             </form>
@@ -106,16 +106,28 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="flex flex-col mt-10 space-y-4 px-3 lg:hidden">
+          <div className="text-2xl font-bold text-fuchsia-400/60">
+            ¿Qué es BB Glowing?
+          </div>
+          <div className="text-slate-700/60 text-lg">
+            ¿Alguna vez has soñado con ser una experta en estética y transformar
+            vidas con tu habilidad? Descubre cómo el Curso de BB Glowing te
+            brinda la oportunidad única de hacer precisamente eso. Aprende de
+            los mejores en la industria y da el primer paso hacia una carrera
+            brillante
+          </div>
+        </div>
       </div>
 
       {/* doctor */}
-      <div className="flex flex-col lg:flex-row mt-10 lg:mt-[500px]">
+      <div className="flex flex-col lg:flex-row mt-80 lg:mt-[500px]">
         <div className="relative w-full h-96 lg:order-2">
           <Image
             src={doctor}
             alt="doutora"
             fill
-            className="size-full object-cover md:object-contain lg:object-cover"
+            className="size-full object-contain"
           />
         </div>
         <div className="flex lg:items-center p-3 lg:order-1">
@@ -135,6 +147,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
+        <button
+          type="submit"
+          className="flex justify-center mt-10 py-2 w-80 bg-fuchsia-300 rounded-md mx-auto">
+          Saber Más
+        </button>
+      </form>
 
       <div className="mt-10 lg:mt-36 max-w-2xl mx-auto">
         <video controls>
@@ -239,6 +258,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
+          <button
+            type="submit"
+            className="flex justify-center mt-10 py-2 w-80 bg-fuchsia-300 rounded-md mx-auto">
+            Saber Más
+          </button>
+        </form>
       </div>
     </div>
   );
