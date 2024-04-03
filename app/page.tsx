@@ -37,6 +37,24 @@ export default function Home() {
     }
   }, []);
 
+  useEffect(() => {
+    // Initialize Google Analytics, if not already initialized
+    window.gtag =
+      window.gtag ||
+      function () {
+        (window.gtag.q = window.gtag.q || []).push(arguments);
+      };
+  }, []);
+
+  const trackButtonClick = () => {
+    if (window.gtag) {
+      window.gtag("event", "button_click", {
+        event_category: "Button",
+        event_label: "Your Specific Button",
+      });
+    }
+  };
+
   return (
     <div className="max-w-[1500px] mx-auto px-4 pb-20 mt-8">
       <div className="flex flex-col lg:flex-row justify-center lg:gap-x-32">
@@ -70,6 +88,7 @@ export default function Home() {
             </div>
             <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
               <button
+                onClick={trackButtonClick}
                 type="submit"
                 className="flex justify-center mt-10 py-2 w-80 bg-fuchsia-300 rounded-md mx-auto">
                 Saber Más
@@ -149,6 +168,7 @@ export default function Home() {
       </div>
       <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
         <button
+          onClick={trackButtonClick}
           type="submit"
           className="flex justify-center mt-10 py-2 w-80 bg-fuchsia-300 rounded-md mx-auto">
           Saber Más
@@ -260,6 +280,7 @@ export default function Home() {
         </div>
         <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
           <button
+            onClick={trackButtonClick}
             type="submit"
             className="flex justify-center mt-10 py-2 w-80 bg-fuchsia-300 rounded-md mx-auto">
             Saber Más
