@@ -282,16 +282,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div>
-          <div className="relative size-56 mx-auto">
-            <Image
-              src={ssl}
-              alt="ssl"
-              fill
-              className="size-full object-contain"
-            />
-          </div>
-        </div> */}
+
         <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
           <button
             onClick={trackButtonClick}

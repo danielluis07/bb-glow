@@ -20,7 +20,7 @@ export default function RootLayout({
         className={`${figtree.className} bg-gradient-to-r from-slate-50 via-slate-50 to-slate-200`}>
         {children}
       </body>
-      <GoogleAnalytics gaId="AW-10785596702" />
+      <GoogleAnalytics gaId="AW-10785596702/aMjNCOe4iKQZEJ7K_JYo" />
     </html>
   );
 }
