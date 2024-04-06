@@ -11,8 +11,12 @@ import tools from "@/public/makeup-tools.jpg";
 import { FaCheckCircle } from "react-icons/fa";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { BiSolidQuoteAltRight } from "react-icons/bi";
+import ssl from "@/public/ssl.png";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import design1 from "@/public/Design1.png";
+import design2 from "@/public/Design2.png";
+import design3 from "@/public/Design3.png";
 
 export default function Home() {
   const [resolution, setResolution] = useState({
@@ -278,6 +282,16 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* <div>
+          <div className="relative size-56 mx-auto">
+            <Image
+              src={ssl}
+              alt="ssl"
+              fill
+              className="size-full object-contain"
+            />
+          </div>
+        </div> */}
         <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
           <button
             onClick={trackButtonClick}
@@ -286,6 +300,32 @@ export default function Home() {
             Saber Más
           </button>
         </form>
+        <div className="flex flex-col w-full md:flex-row md:w-4/5 gap-y-8 md:gap-x-2 md:mx-auto mt-10 md:mt-14">
+          <div className="relative size-56 mx-auto">
+            <Image
+              src={design1}
+              alt="ssl"
+              fill
+              className="size-full object-contain"
+            />
+          </div>
+          <div className="relative size-56 mx-auto">
+            <Image
+              src={design2}
+              alt="ssl"
+              fill
+              className="size-full object-contain"
+            />
+          </div>
+          <div className="relative size-56 mx-auto">
+            <Image
+              src={design3}
+              alt="ssl"
+              fill
+              className="size-full object-contain"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
