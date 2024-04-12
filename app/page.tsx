@@ -90,7 +90,7 @@ export default function Home() {
                 Potencia tu carrera con habilidade en BB Glow
               </div>
             </div>
-            <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
+            <form action="https://go.hotmart.com/U89363941W">
               <button
                 onClick={trackButtonClick}
                 type="submit"
@@ -164,13 +164,13 @@ export default function Home() {
             aumentar sus ingresos. Para más detalles, visita{" "}
             <Link
               className="font-bold text-fuchsia-500"
-              href="https://www.bellasbellas.com/curso11/?ref=U89363941W">
+              href="https://go.hotmart.com/U89363941W">
               BellasBellas
             </Link>
           </div>
         </div>
       </div>
-      <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
+      <form action="https://go.hotmart.com/U89363941W">
         <button
           onClick={trackButtonClick}
           type="submit"
@@ -283,7 +283,7 @@ export default function Home() {
           </div>
         </div>
 
-        <form action="https://www.bellasbellas.com/curso11/?ref=U89363941W">
+        <form action="https://go.hotmart.com/U89363941W">
           <button
             onClick={trackButtonClick}
             type="submit"
